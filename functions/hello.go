@@ -12,7 +12,7 @@ func handler(request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResp
 		StatusCode:        200,
 		Headers:           map[string]string{"Content-Type": "text/plain"},
 		MultiValueHeaders: http.Header{"Set-Cookie": {"Ding", "Ping"}},
-		Body:              "Hello, World!",
+		Body:              "Hello, World!!",
 		IsBase64Encoded:   false,
 	}, nil
 }
